@@ -22,7 +22,7 @@ img {
 }
 
 a {
-	color: #00B7FF;
+	color: #D36153;
 }
 
 a:hover {
@@ -231,10 +231,21 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .pinkFont {
-	color: #F35EAC;
+	color: #D36153;
 }
+
+.lg_font {
+	font-size: 21px;
+}
+
+.lg_h3, #specials p {
+	font-size: 17px;
+}
+
 .pfblock {
+	margin: 0px;
 	padding: 120px 0 100px;
+	background: #fff;
 }
 
 .pfblock-gray {
@@ -245,12 +256,6 @@ textarea.form-control {
 	padding: 0;
 }
 
-.calltoaction h1,
-.calltoaction h2,
-.calltoaction h3,
-.calltoaction h4,
-.calltoaction h5,
-.calltoaction h6,
 .pfblock-image,
 .pfblock-image h1,
 .pfblock-image h2,
@@ -278,6 +283,7 @@ textarea.form-control {
 
 .pfblock-title{
     font-weight: 800;
+    color: #D36153;
 }
 
 .pfblock-subtitle {
@@ -287,7 +293,7 @@ textarea.form-control {
 }
 
 .pfblock-line {
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(211, 97, 83, 0.4);
 	width: 100px;
 	height: 1px;
 	margin: 30px auto;
@@ -296,64 +302,14 @@ textarea.form-control {
 .pfblock-icon {
 	font-size: 32px;
 }
-.calltoaction *{
-    text-align: center;
-}
-.calltoaction {
-    background: url(../images/item-10.jpg);
-	background-color: #222;
-	background-repeat: no-repeat;
-	background-position: 0 19%;
-	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-		 -o-background-size: cover;
-			background-size: cover;
-	padding: 50px 0;
-	color: #999;
-}
-
-.calltoaction h2 {
-	font-size: 20px;
-	letter-spacing: 1px;
-	margin-bottom: 5px;
-}
-
-.calltoaction-decription{
-    padding-top: 20px;
-    padding-bottom: 30px;
-    font-size: 20px;
-    color: #fff;
-}
-
-.calltoaction-btn {
-	text-align: center;
-}
-
-.calltoaction-btn > .btn {
-    background: rgba(255, 255, 255, .8);
-    color: #111;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	border-radius: 18px;
-}
-
-.calltoaction-btn > .btn:hover{
-    background: #00B7FF;
-    color: #fff;
-    border-radius: 18px;
-}
-
-.long-down {
-	margin-bottom: 40px;
-}
 
 /* ---------------------------------------------- /*
  * Home
 /* ---------------------------------------------- */
 
 #home {
-	background: url('../images/cover.jpg');
-	background-color: #222;
+	/*background: url('../images/cover.jpg');*/
+	/*background-color: #222;*/
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -364,8 +320,8 @@ textarea.form-control {
 	padding: 0;
 }
 
-/*.home-overlay {
-    background-color: rgba(44, 62, 80, 0.3);
+.home-overlay {
+    /*background-color: rgba(44, 62, 80, 0.3);*/
     background-image: url("../images/pattern.png");
     background-repeat: repeat;
     height: 100%;
@@ -374,7 +330,25 @@ textarea.form-control {
     top: 0;
     width: 100%;
     z-index: 0;
-}*/
+}
+
+.background-wrap {
+	position: fixed;
+	z-index: -1000;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+
+#video-bg-elem {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
 
 .intro {
 	position: absolute;
@@ -393,15 +367,15 @@ textarea.form-control {
 .intro h1{
 	font-size: 52px;
 	font-family: 'Pinyon Script', cursive;
-	color: #000;
+	color: #fff;
     font-weight: 800;
     text-transform: none;
 }
 
 .start {
-	color: #000;
+	color: #fff;
 	font-family: 'Cuprum', sans-serif;
-	font-size: 18px;
+	font-size: 24px;
 	font-style: normal;
 	text-transform: none;
 	margin: 15px 0;
@@ -428,6 +402,10 @@ textarea.form-control {
 .iconbox-title {
 	margin: 0 0 15px;
 	padding: 0;
+}
+
+.aboutp {
+	padding: 0px 10px;
 }
 
 /*Change image when hovered*/
@@ -513,13 +491,14 @@ textarea.form-control {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #F35EAC;
+    background-color: #D36153;
 }
 
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
     font-size: 10px;
     line-height: 14px;
+    color: #fff;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
@@ -549,7 +528,7 @@ textarea.form-control {
 .timeline .timeline-heading h3 {
 	font-size: 20px;
     margin-top: 0;
-    color: #F35EAC;
+    color: #D36153;
 }
 
 .timeline .timeline-body>p,
@@ -687,25 +666,25 @@ textarea.form-control {
 #c_name::-webkit-input-placeholder,
 #c_email::-webkit-input-placeholder,
 #c_message::-webkit-input-placeholder {
-  	color:    #00B7FF;
+  	color:    #D36153;
 }
 
 #c_name:-moz-placeholder,
 #c_email:-moz-placeholder,
 #c_message:-moz-placeholder {
-  	color:    #00B7FF;
+  	color:    #D36153;
 }
 
 #c_name::-moz-placeholder,
 #c_email::-moz-placeholder,
 #c_message::-moz-placeholder {
-  	color:    #00B7FF;
+  	color:    #D36153;
 }
 
 #c_name:-ms-input-placeholder,
 #c_email:-ms-input-placeholder,
 #c_message:-ms-input-placeholder {
-  	color:    #00B7FF;
+  	color:    #D36153;
 }
 /* ---------------------------------------------- /*
  * Footer
@@ -777,6 +756,16 @@ textarea.form-control {
 	color: #4E433C;
 }
 
+.facebook:hover {
+	border: 1px solid rgba(255, 255, 255, .5);
+	color: #3B5998;
+}
+
+.googleplus:hover {
+	border: 1px solid rgba(255, 255, 255, .5);
+	color: #DD4B39;
+}
+
 /* ---------------------------------------------- /*
  * Conflic
 /* ---------------------------------------------- */
@@ -787,27 +776,42 @@ textarea.form-control {
 /* ---------------------------------------------- /*
  * Navigation
 /* ---------------------------------------------- */
+
+.mainLogo {
+	height: 35px;
+	width: 35px;
+	margin-top: 7px;
+    display: inline-block;
+    position: absolute;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
 #tf-menu {
 	transition: all 0.8s;
 }
 
 #tf-menu.navbar-default {
-	background-color: rgba(248, 248, 248, .9);
+	background-color: rgba(0, 0, 0, .5);
 	border-color: rgba(231, 231, 231, 0);
 }
 
 #tf-menu a.navbar-brand {
+	margin-left: 40px;
 	font-size: 30px;
-	color: #222;
-	font-weight: 100;
+	color: #fff;
+	font-weight: 600;
 	font-family: 'Pinyon Script', cursive;
 }
 
 #tf-menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: #222;
+	color: #fff;
 	font-size: 12px;
 	letter-spacing: 1px;
+	margin-left: 10px;
 }
 
 .on {
@@ -818,7 +822,7 @@ textarea.form-control {
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #fff !important;
+	color: #D36153 !important;
 	background-color: transparent;
 	font-weight: 700;
 }
@@ -832,7 +836,7 @@ textarea.form-control {
 
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus {
-	background-color: #00B7FF;
+	background-color: #D36153;
 	font-size: 22px;
 }
 
@@ -841,7 +845,7 @@ textarea.form-control {
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	border-color: #00B7FF;
+	border-color: #D36153;
 }
 /*--------------------------------*/
 /***** Contact and Footer Font Color*****/
@@ -872,12 +876,14 @@ textarea.form-control {
 	color: #fff;
 	font-size: 15px;
 	line-height: 30px;
+	border-radius: 50%;
+	padding-top: 3px;
 }
 
 .scroll-up a:hover,
 .scroll-up a:active {
 	background-color: rgba(235, 235, 235, .8);
-	color: #00B7FF;
+	color: #D36153;
 }
 
 /* ---------------------------------------------- /*
@@ -914,6 +920,22 @@ textarea.form-control {
 	animation-iteration-count: infinite;
 	animation-play-state: running;
 }
+.fbanimate {
+    position: relative;
+    color: #fff;
+    -webkit-animation-name: flash;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+	animation-name: flash;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+}
 
 @-webkit-keyframes drop	{
 	0%   { top:0px;  opacity: 0;}
@@ -925,6 +947,18 @@ textarea.form-control {
 	0%   { top:0px;  opacity: 0;}
 	30%  { top:10px; opacity: 1;}
 	100% { top:25px; opacity: 0;}
+}
+
+@-webkit-keyframes flash	{
+	0%   { top:0px;  opacity: 0;}
+	30%  { top:0px; opacity: 1;}
+	100% { top:0px; opacity: 0;}
+}
+
+@keyframes flash	{
+	0%   { top:0px;  opacity: 0;}
+	30%  { top:0px; opacity: 1;}
+	100% { top:0px; opacity: 0;}
 }
 
 /* ---------------------------------------------- /*
@@ -971,6 +1005,20 @@ textarea.form-control {
 	.spaceGap {
 		margin-top: 50px;
 	}
+
+	#tf-menu a.navbar-brand {
+		margin-top: 6px;
+		font-size: 28px;
+		margin-left: 53px;
+	}
+
+	.mainLogo {
+		margin: 10px 0px 0px 20px;
+	}
+
+	.start {
+		font-size: 20px;
+	}
 }
 
 @media (max-width: 480px) {
@@ -984,6 +1032,14 @@ textarea.form-control {
 		font-size: 24px;
 		margin: 0 0 30px;
 		letter-spacing: 3px;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	.spaceGap {
+		margin-top: 45px;
 	}
 
 }
@@ -1010,7 +1066,7 @@ textarea.form-control {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(99,82,69,.9);
+    background: rgba(211,97,83,.7);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
