@@ -243,7 +243,7 @@ textarea.form-control {
 }
 
 .pfblock {
-	margin: 0px;
+	margin: -5px;
 	padding: 120px 0 100px;
 	background: #fff;
 }
@@ -695,6 +695,7 @@ textarea.form-control {
 	text-align: center;
 	padding: 40px 0;
 	color: #FFF;
+	margin: -13px;
 }
 
 .copyright {
