@@ -7,8 +7,8 @@ if(isset($_POST['message'])){
 	$message = $_POST['message'];
     
 	
-	$to      = 'aespinoza123@gmail.com';
-	$subject = 'Schedule Interview';
+	$to      = 'brianna@whiterosemassage.com';
+	$subject = 'Schedule Massage';
 
 	$headers = 'From: '. $email . "\r\n" .
     'Reply-To: '. $email . "\r\n" .
@@ -23,7 +23,7 @@ if(isset($_POST['message'])){
 		$res['message'] = 'Form Submission Successful';
     }
 	else{
-		$res['message'] = 'Failed to send mail. Please mail me to aespinoza123@gmail.com';
+		$res['message'] = 'Failed to send mail. Please mail me to brianna@whiterosemassage.com';
 	}
 	
 	

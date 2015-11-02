@@ -234,11 +234,15 @@ textarea.form-control {
 	color: #D36153;
 }
 
-.lg_font {
+.services-modal .modal-content h3 {
+	font-size: 25px;
+}
+
+.lg_font, .lg_font h3 {
 	font-size: 21px;
 }
 
-.lg_h3, #specials p {
+.lg_h3, #specials p, .lg_h3 h3 {
 	font-size: 17px;
 }
 
@@ -1074,6 +1078,7 @@ background-image: url('../images/janice.jpg');
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    outline: none;
 }
 
 #services .services-item .services-link .services-hover {
@@ -1157,10 +1162,11 @@ background-image: url('../images/janice.jpg');
 
 .services-modal .modal-content h2 {
     margin-bottom: 15px;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .services-modal .modal-content p {
+	font-size: 19px;
     margin-bottom: 30px;
 }
 
@@ -1218,6 +1224,16 @@ background-image: url('../images/janice.jpg');
 .services-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.btn-primary {
+	background-color: #D36153;
+}
+
+.btn-primary:hover {
+	background-color: #C56153;
+	border-color: #D36153;
+	color: #000;
 }
 
 /*-----------------------*/
