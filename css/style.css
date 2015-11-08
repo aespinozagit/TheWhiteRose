@@ -22,7 +22,7 @@ img {
 }
 
 a {
-	color: #D36153;
+	color: #6E3EB0;
 }
 
 a:hover {
@@ -230,8 +230,8 @@ textarea.form-control {
  * General Styles
 /* ---------------------------------------------- */
 
-.pinkFont {
-	color: #D36153;
+.pinkFont, #therapist {
+	color: #6E3EB0;
 }
 
 .services-modal .modal-content h3 {
@@ -287,7 +287,7 @@ textarea.form-control {
 
 .pfblock-title{
     font-weight: 800;
-    color: #D36153;
+    color: #6E3EB0;
 }
 
 .pfblock-subtitle {
@@ -297,7 +297,7 @@ textarea.form-control {
 }
 
 .pfblock-line {
-	background: rgba(211, 97, 83, 0.4);
+	background: rgba(110,62,176, 0.4);
 	width: 100px;
 	height: 1px;
 	margin: 30px auto;
@@ -510,7 +510,7 @@ background-image: url('../images/janice.jpg');
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #D36153;
+    background-color: #6E3EB0;
 }
 
 .timeline>li .timeline-image h4 {
@@ -547,7 +547,7 @@ background-image: url('../images/janice.jpg');
 .timeline .timeline-heading h3 {
 	font-size: 20px;
     margin-top: 0;
-    color: #D36153;
+    color: #6E3EB0;
 }
 
 .timeline .timeline-body>p,
@@ -685,25 +685,25 @@ background-image: url('../images/janice.jpg');
 #c_name::-webkit-input-placeholder,
 #c_email::-webkit-input-placeholder,
 #c_message::-webkit-input-placeholder {
-  	color:    #D36153;
+  	color:    #6E3EB0;
 }
 
 #c_name:-moz-placeholder,
 #c_email:-moz-placeholder,
 #c_message:-moz-placeholder {
-  	color:    #D36153;
+  	color:    #6E3EB0;
 }
 
 #c_name::-moz-placeholder,
 #c_email::-moz-placeholder,
 #c_message::-moz-placeholder {
-  	color:    #D36153;
+  	color:    #6E3EB0;
 }
 
 #c_name:-ms-input-placeholder,
 #c_email:-ms-input-placeholder,
 #c_message:-ms-input-placeholder {
-  	color:    #D36153;
+  	color:    #6E3EB0;
 }
 /* ---------------------------------------------- /*
  * Footer
@@ -841,7 +841,7 @@ background-image: url('../images/janice.jpg');
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #D36153 !important;
+	color: #6E3EB0 !important;
 	background-color: transparent;
 	font-weight: 700;
 }
@@ -855,7 +855,7 @@ background-image: url('../images/janice.jpg');
 
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus {
-	background-color: #D36153;
+	background-color: #6E3EB0;
 	font-size: 22px;
 }
 
@@ -864,7 +864,7 @@ background-image: url('../images/janice.jpg');
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	border-color: #D36153;
+	border-color: #6E3EB0;
 }
 /*--------------------------------*/
 /***** Contact and Footer Font Color*****/
@@ -902,7 +902,7 @@ background-image: url('../images/janice.jpg');
 .scroll-up a:hover,
 .scroll-up a:active {
 	background-color: rgba(235, 235, 235, .8);
-	color: #D36153;
+	color: #6E3EB0;
 }
 
 /* ---------------------------------------------- /*
@@ -1086,7 +1086,7 @@ background-image: url('../images/janice.jpg');
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(211,97,83,.7);
+    background: rgba(110,62,176,.6);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -1184,6 +1184,7 @@ background-image: url('../images/janice.jpg');
 
 .services-modal .modal-content img {
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .services-modal .close-modal {
@@ -1227,12 +1228,12 @@ background-image: url('../images/janice.jpg');
 }
 
 .btn-primary {
-	background-color: #D36153;
+	background-color: #6E3EB0;
 }
 
 .btn-primary:hover {
 	background-color: #C56153;
-	border-color: #D36153;
+	border-color: #6E3EB0;
 	color: #000;
 }
 

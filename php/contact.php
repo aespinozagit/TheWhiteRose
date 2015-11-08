@@ -4,8 +4,7 @@ if(isset($_POST['message'])){
 
 	$name = $_POST['name'];
 	$email = $_POST['email'];
-	$message = $_POST['message'];
-    
+	$message = $_POST['message'];    
 	
 	$to      = 'brianna@whiterosemassage.com';
 	$subject = 'Schedule Massage';
