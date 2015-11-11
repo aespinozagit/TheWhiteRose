@@ -140,14 +140,16 @@
 			var c_email = $('#c_email').val();
 			var c_message = $('#c_message ').val();
 			var response = $('#contact-form .ajax-response');
+			var c_therapist = $('#therapist option:selected').text();
 			
 			var formData = {
 				'name'       : c_name,
 				'email'      : c_email,
-				'message'    : c_message
+				'message'    : c_message,
+				'therapist'  : c_therapist
 			};
 
-			if (( c_name== '' || c_email == '' || c_message == '') || (!isValidEmailAddress(c_email) )) {
+			if (( c_name== '' || c_email == '' || c_message == '' || c_therapist == '' || c_therapist == 'Choose A Therapist') || (!isValidEmailAddress(c_email) )) {
 				response.fadeIn(500);
 				response.html('<i class="fa fa-warning"></i> Please fill out all fields above and try again.');
 			}
